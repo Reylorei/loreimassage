@@ -1,0 +1,5 @@
+.language-page {
+    background-color: #2A79A0; /* Color de fondo deseado */
+    /* Asegúrate de que el alto sea 100vh para cubrir toda la altura de la pantalla */
+    height: 100vh;
+  }
