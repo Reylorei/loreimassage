@@ -1,0 +1,38 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+build/
+
+# React-specific
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+*.venv
+env/
+*.env
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db

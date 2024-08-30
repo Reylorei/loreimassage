@@ -1,0 +1,18 @@
+- Hola Gpt! Respira profundamente.
+
+Estoy desarrollando un proyecto en React.
+
+La idea es:
+    -Pagina de introduccion solo con el logo de la empresa.
+    -Pagina de seleccion de idiomas
+    -Pagina de presentacion del curriculum o productos.
+
+Mi estructura de directorios actual es:
+'''
+
+
+'''
+
+Me ayudaras a mejorar y a implementar ideas en mi codigo.
+
+
