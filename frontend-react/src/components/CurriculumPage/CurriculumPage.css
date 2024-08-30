@@ -1,0 +1,104 @@
+/* CurriculumPage.css */
+
+.curriculum-page {
+    background-color: #2A79A0; /* Color de fondo deseado */        
+    height: 100vh;
+}
+
+.btn-active, .btn-inactive {
+  /* Ancho fijo para el botón */
+  width: 150px;
+  height: 50px;
+  /* Otras propiedades de estilo */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+.btn-active {
+    /* Estilos para cuando el botón está activo */
+    background-image: url('../../statics/boton-PLAY-sin-borde-blanco.png'); /* Imagen de fondo */
+    color: transparent; /* Hace el texto transparente, si no quieres que se vea */
+    border: transparent;
+    background-size: auto 50px; /* Asegura que la imagen cubra completamente el botón */
+    background-position: center; /* Centra la imagen en el botón */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.btn-inactive {
+  background-image: linear-gradient(#00a6ff, #093b6e); /* Degradado de azul a azul oscuro */
+  color: #ffffff; /* Color del texto */
+  border: 1px solid #093b6e; /* Borde con color blanco */
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 12px; /* Tamaño de fuente */
+  line-height: 1.5; /* Controla la altura de las líneas */
+  border-radius: 15px; /* Borde redondeado */
+  cursor: pointer; /* Cursor al pasar el ratón */
+  margin: 5px; /* Margen entre botones */
+  font-family: "Lucida Sans", Arial, sans-serif; /* Cambiar la fuente del texto */
+  box-shadow: 0 3px 8px rgba(48, 60, 141, 0.568); /* Sombra debajo del botón */
+  width: auto; /* Ancho automático */
+  min-height: 50px; /* Altura mínima suficiente para dos líneas */
+  max-width: 200px; /* Ancho máximo para forzar el salto de línea */
+  white-space: normal; /* Permite que el texto envuelva */
+}
+
+.btn-inactive:hover {
+  background-image: linear-gradient(#093b6e, #1b5ea1); /* Nuevo degradado al pasar el ratón */
+}
+
+.description-text {
+    color: white; /* Establece el color del texto a blanco */
+}
+
+.button-text-description {
+    color: white; /* Establece el color del texto a blanco */    
+    font-weight: bold;
+}
+
+.image-active {
+    transform: translateY(-10px); /* Desplaza la imagen 10px hacia arriba */
+    transition: transform 0.3s ease; /* Suaviza la transición */
+}
+
+/* Clase para las imágenes drawing y aniDrawing */
+.larger-image {
+  width: auto; /* Ajusta el ancho según tus necesidades */
+  height: auto; /* Ajusta el alto según tus necesidades */
+  margin-bottom: 20px; /* Agrega margen inferior para separarlas de las fotos Polaroid y videos */
+}
+
+
+@keyframes rotationOpening {
+    0% {
+      transform: scale(0) rotate(0deg);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.2) rotate(360deg);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1) rotate(360deg);
+      opacity: 1;
+    }
+  }
+  
+  .animate-rotation-opening {
+    animation: rotationOpening 1s ease-out forwards;
+  }
+  .video-container {
+    display: flex;
+    justify-content: center;
+    max-width: 100%; /* Establece un ancho máximo para el iframe */
+    margin: 0 auto; /* Centra horizontalmente el iframe */
+}
+
+.footer {
+  background-color: #2A79A0; /* Color de fondo deseado para el pie de página */
+  color: white; /* Color del texto */
+  text-align: center; /* Centrar el texto horizontalmente */
+  padding: 40px 0; /* Espaciado interno superior e inferior */
+  font-family: Arial, sans-serif; /* Tipo de fuente */
+  opacity: 0.5; /* Opacidad del pie de página */
+}
+
+
